@@ -2,6 +2,7 @@
 
 int main(){
 	int t;
+	printf("Programa que imprime las tablas de multiplicar \n");
 	printf("Hasta que tabla quieres calcular \n");
 	scanf("%d", &t);
 	for(int i = 1; i <= t; ++i){
