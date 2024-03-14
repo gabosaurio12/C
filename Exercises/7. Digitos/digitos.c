@@ -9,7 +9,8 @@ int digitosEntero (int n){
 
 int main(){
 	int n;
+    printf("Ingresa un numero ");
 	scanf("%d", &n);
-	printf("%d\n", digitosEntero(n));
+	printf("Digitos: %d\n", digitosEntero(n));
 	return 0;
 }

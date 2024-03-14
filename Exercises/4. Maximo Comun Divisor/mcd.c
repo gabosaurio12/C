@@ -12,7 +12,9 @@ int mcd(int a, int b){
 
 int main(){
 	int n1,n2,mcd2;
+    printf("Ingresa el numero 1 ");
 	scanf("%d", &n1);
+    printf("Ingresa el numero 2 ");
 	scanf("%d", &n2);
 	mcd2 = mcd(n1,n2);
 	printf("El MCD de %d y de %d es %d\n", n1, n2, mcd2);

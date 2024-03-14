@@ -2,6 +2,7 @@
 
 void leerArr (int a[], int n){
 	for (int i = 0; i < n; i++){
+        printf("Numero ");
 		scanf("%d", &a[i]);
 	}
 }

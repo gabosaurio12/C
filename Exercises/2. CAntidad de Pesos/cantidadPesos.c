@@ -7,10 +7,12 @@ int main(){
 	int aM60 = 0;
 	int n;
 
+    printf("Ingresa el numero de datos que vas a ingresar \n");
 	scanf("%d", &n);
 
 	for(int i = 0; i < n; i++){
 		int peso;
+        printf("Peso: ");
 		scanf("%d", &peso);
 
 		if(peso < 40)
